@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lily Hou</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" type="image/svg+xml" href="images/purple-circle-svgrepo-com.svg">
+
+
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- PROFILE SECTION -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <!-- Option 1: Use a professional avatar generator like https://avatar.iran.liara.run/ -->
+      <img src="https://avatar.iran.liara.run/public/girl" alt="Profile picture" />
+      
+      <!-- Option 2: Use UI Avatars (text-based avatar) -->
+      <!-- <img src="https://ui-avatars.com/api/?name=Lily+Hou&size=360&background=7851a9&color=fff&bold=true" alt="Profile picture" /> -->
+      
+      <!-- Option 3: Upload your own photo to the images folder -->
+      <!-- <img src="images/profile.jpg" alt="Profile picture" /> -->
+    </div>
+
+    <div class="section__text">
+      <h1 class="title">Hi, my name is Lily</h1>
+      <p class="section__text__p2">
+        I am a 2nd year Electronics and Computer Science student at The
+        University of Edinburgh. I have a strong passion for technology and
+        coding, and I am eager to apply my skills in real-world scenarios.
+        Feel free to contact me using the links below!
+      </p>
+
+      <div id="socials-container">
+        <i class="fa-brands fa-linkedin"
+           onclick="location.href='https://www.linkedin.com/in/lily-h-a6a50a248/'"></i>
+        <i class="fa-brands fa-github"
+           onclick="location.href='https://github.com/lhou2007'"></i>
+        <i class="fa-solid fa-envelope"
+           onclick="location.href='mailto:lmhou2007@outlook.com'"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIDE NAV -->
+  <nav class="sidenav">
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <!-- EDUCATION -->
+    <section class="content-section" id="education">
+      <h2 class="purple-text">Education</h2>
+      <hr />
+
+      <div class="card">
+        <div class="card-bar"></div>
+        <div class="card-image">
+          <!-- University of Edinburgh logo - using Font Awesome icon as alternative -->
+          <i class="fa-solid fa-graduation-cap" style="font-size: 40px; color: #7851a9;"></i>
+          
+          <!-- Alternative: You can download the official logo from the university website -->
+          <!-- <img src="images/edinburgh-logo.png" alt="University of Edinburgh" /> -->
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <div class="university">The University of Edinburgh</div>
+            <div class="date">2024 – 2028</div>
+          </div>
+          <div class="course">BEng Electronics and Computer Science</div>
+          <div class="modules">
+            Year 2 Modules | Electrical Engineering Design 2, Introduction to Algorithms
+            and Data Structures, Analogue Circuits 2, Introduction to Computer Systems,
+            Engineering Mathematics 2A, Digital System Design 2, Microelectronics 2,
+            Sensor Networks and Data Analysis 2, Engineering Mathematics 2B
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="content-section" id="experience">
+      <h2 class="purple-text">Experience</h2>
+      <hr />
+
+      <div class="card">
+        <div class="card-bar"></div>
+        <div class="card-image">
+          <!-- HSBC icon alternative -->
+          <i class="fa-solid fa-building" style="font-size: 40px; color: #7851a9;"></i>
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <div class="university">HSBC Women in Technology | Women Who Code</div>
+            <div class="date">March 2026</div>
+          </div>
+          <div class="course">Insight Program</div>
+          <div class="modules">Incoming, 2 day insight day participant</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-bar"></div>
+        <div class="card-image">
+          <!-- Tutoring icon -->
+          <i class="fa-solid fa-chalkboard-user" style="font-size: 40px; color: #7851a9;"></i>
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <div class="university">Private Tutor</div>
+            <div class="date">2025 – Present</div>
+          </div>
+          <div class="course">National 5</div>
+          <div class="modules">Currently tutoring Computing Science and Mathematics</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-bar"></div>
+        <div class="card-image">
+          <!-- HYPED/Hyperloop icon -->
+          <i class="fa-solid fa-rocket" style="font-size: 40px; color: #7851a9;"></i>
+        </div>
+        <div class="card-content">
+          <div class="card-header">
+            <div class="university">HYPED</div>
+            <div class="date">2024 – 2025</div>
+          </div>
+          <div class="course">UoE | Research Team</div>
+          <div class="modules">
+            Research for the Hyperloop pod competition focusing on pod design and technology.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="content-section" id="projects">
+      <h2 class="purple-text">Projects</h2>
+      <hr />
+
+      <div class="project-card-container">
+
+        <div class="project-card">
+          <!-- NLP Project - using Unsplash for free stock images -->
+          <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&h=400&fit=crop" 
+               alt="NLP Wikipedia Search - Laptop with code" />
+          
+          <!-- Alternative options:
+               - https://source.unsplash.com/600x400/?programming,code
+               - Create a custom SVG icon background
+          -->
+          <div class="project-card-content">
+            <div class="project-title">NLP Wikipedia Search Engine</div>
+            <div class="project-status">
+              <span>HTML, JS, CSS, MySQL, FastAPI, Elasticsearch</span> | In progress
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/lhou2007/UoE/tree/master"
+           target="_blank"
+           class="project-card-link">
+          <div class="project-card">
+            <!-- Matrix/Java Project -->
+            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&h=400&fit=crop" 
+                 alt="Matrix project - Programming code" />
+            <div class="project-card-content">
+              <div class="project-title">Matrix Rotation</div>
+              <div class="project-status">Java | OOP Coursework</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/callum-glasgow/hackthebura"
+           target="_blank"
+           class="project-card-link">
+          <div class="project-card">
+            <!-- Hackathon Project -->
+            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop" 
+                 alt="Hackathon - Team collaboration" />
+            <div class="project-card-content">
+              <div class="project-title">Hack the Burg 2025</div>
+              <div class="project-status">
+                HTML, CSS, JS, Python | Team redesign project
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    const sections = document.querySelectorAll(".content-section");
+    const navLinks = document.querySelectorAll(".sidenav a");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Remove dimmed and add active to visible sections
+            entry.target.classList.remove("dimmed");
+            entry.target.classList.add("active");
+            
+            // Update nav
+            const targetId = entry.target.id;
+            navLinks.forEach(link => {
+              link.classList.toggle(
+                "active",
+                link.getAttribute("href") === `#${targetId}`
+              );
+            });
+          } else {
+            // Add dimmed and remove active from non-visible sections
+            entry.target.classList.add("dimmed");
+            entry.target.classList.remove("active");
+          }
+        });
+      },
+      {
+        threshold: 0.3,
+        rootMargin: "0px"
+      }
+    );
+
+    sections.forEach(section => observer.observe(section));
+  </script>
+
+</body>
+</html>
